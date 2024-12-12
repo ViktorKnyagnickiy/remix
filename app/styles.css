@@ -1,0 +1,36 @@
+
+.weather-clear {
+    background: linear-gradient(to top, #87ceeb, #fdfbfb); /* Сонячно */
+    color: #333;
+  }
+  
+  .weather-cloudy {
+    background: linear-gradient(to top, #bdc3c7, #2c3e50); /* Хмарно */
+    color: #fff;
+  }
+  
+  .weather-rain {
+    background: url('/rain-drops.png') center/cover no-repeat; /* Дощ */
+    color: #fff;
+  }
+  
+  .weather-snow {
+    background: url('/snow-flakes.png') center/cover no-repeat; /* Сніг */
+    color: #000;
+  }
+  
+  .weather-default {
+    background: #e0e0e0; /* Стандартний фон */
+    color: #000;
+  }
+  
+  .weather-clear {
+    background: url('/assets/sunny.jpeg') center/cover no-repeat;
+    color: #333;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
